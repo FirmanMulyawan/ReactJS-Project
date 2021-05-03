@@ -7,6 +7,7 @@ import { like } from "../../assets";
 
 const Detail = (props) => {
   const [data, setData] = React.useState({});
+
   React.useEffect(() => {
     const id = props.match.params.id;
     axios
